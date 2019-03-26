@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                     String user =
                             sharedPreferences.getString("username","");
                     int dtb =
-                            sharedPreferences.getInt("dtb123",0);
+                            sharedPreferences.getInt("dtb",0);
 
                     Toast.makeText(MainActivity.this, user +" " + dtb, Toast.LENGTH_SHORT).show();
                 }catch (Exception ex){
